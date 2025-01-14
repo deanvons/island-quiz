@@ -8,17 +8,17 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 [x] - App idea / component tree
-[] - Explain the differences between HTML and JSX.
-[] - Compare a function component to a class component.
-[] - Demonstrate how to create a component.
-[] - Demonstrate how to display a component.
-[] - Demonstrate how to display data within a component.
-[] - Demonstrate how to conditionally display data within a component.
+[x] - Explain the differences between HTML and JSX.
+[x] - Compare a function component to a class component.
+[x] - Demonstrate how to create a component.
+[x] - Demonstrate how to display a component.
+[x] - Demonstrate how to display data within a component.
+[x] - Demonstrate how to conditionally display data within a component.
 [] - Demonstrate how to handle user events.
 [] - Explain what a higher order component is.
 [] - Implement a higher order component.
-[] - Explain what local state is.
-[] - Demonstrate how to work with local state.
+[x] - Explain what local state is.
+[x] - Demonstrate how to work with local state.
 [] - Explain what reducers are.
 [] - Demonstrate how to work with reducers.
 [] - Explain what props and events are.
