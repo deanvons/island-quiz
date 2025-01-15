@@ -15,14 +15,23 @@ Currently, two official plugins are available:
 [x] - Demonstrate how to display data within a component.
 [x] - Demonstrate how to conditionally display data within a component.
 [x] - Demonstrate how to handle user events.
-[] - Explain what a higher order component is.
-[] - Implement a higher order component.
 [x] - Explain what local state is.
 [x] - Demonstrate how to work with local state.
-[] - Explain what reducers are.
-[] - Demonstrate how to work with reducers.
-[] - Explain what props and events are.
-[] - Demonstrate how to work with props and events.
+
+[x] - Explain what reducers are.
+[x] - Demonstrate how to work with reducers.
+[x] - Explain what props and events are.
+[x] - Demonstrate how to work with props and events.
 [] - Demonstrate how to setup routing
-[] - Demonstrate how to use forms
+
+[] - Explain what a higher order component is.
+[] - Implement a higher order component.
+[] - auth guard hoc
+
+
+
 [] - Compare the three types of forms tools
+
+
+[] - Demonstrate how to use forms
+[] - State management 

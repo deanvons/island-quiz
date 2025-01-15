@@ -1,16 +1,19 @@
-
-import './App.css'
-import { Question } from './components/question'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import { QuestionPage } from "./components/pages/questionPage";
+import { ResultPage } from "./components/pages/resultPage";
 
 function App() {
-
   return (
     <>
-      <Question></Question>
-      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<QuestionPage></QuestionPage>}></Route>
+          <Route path="/results" element={<ResultPage></ResultPage>}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
-    
-  )
+  );
 }
 
-export default App
+export default App;
