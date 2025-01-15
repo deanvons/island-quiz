@@ -14,7 +14,7 @@ Currently, two official plugins are available:
 [x] - Demonstrate how to display a component.
 [x] - Demonstrate how to display data within a component.
 [x] - Demonstrate how to conditionally display data within a component.
-[] - Demonstrate how to handle user events.
+[x] - Demonstrate how to handle user events.
 [] - Explain what a higher order component is.
 [] - Implement a higher order component.
 [x] - Explain what local state is.
@@ -23,3 +23,6 @@ Currently, two official plugins are available:
 [] - Demonstrate how to work with reducers.
 [] - Explain what props and events are.
 [] - Demonstrate how to work with props and events.
+[] - Demonstrate how to setup routing
+[] - Demonstrate how to use forms
+[] - Compare the three types of forms tools
