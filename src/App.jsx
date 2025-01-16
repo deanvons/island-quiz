@@ -6,13 +6,16 @@ import withAuth from "./components/guards/authGuard";
 
 function App() {
 
-  const ProtectedResultPage = withAuth(ResultPage);
+  // wrap the ResultPage to protect it
+  const ProtectedResultPage = withAuth(ResultPage); 
+   // i.e. if you try go to localhost.../results, it won't show unless you satisfy the condition in withAuth
 
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<QuestionPage></QuestionPage>}></Route>
+          {/* render the ProtectedResultPage, it will have the check built in by the withAuth HOC */}
           <Route path="/results" element={<ProtectedResultPage/>}></Route>
         </Routes>
       </BrowserRouter>
