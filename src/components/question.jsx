@@ -1,7 +1,10 @@
+import { useSelector } from "react-redux";
 
 
 export function Question() {
  
+  const question = useSelector(store => store.question)
+
     // question data
     const sampleQuestion = {
         question: "What is the first thing you should do if you find yourself stranded on a deserted island?",
@@ -23,7 +26,7 @@ export function Question() {
 
   return (
     <div>
-        <h1>{sampleQuestion.question}</h1>
+        <h1>{question.correctAnswer}</h1>
         <ul>
             {optionList}
         </ul>
