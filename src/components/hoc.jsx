@@ -1,19 +1,13 @@
-export function Hoc(props){
+export function hoc(Loc) {
+  const someData = "secret";
 
-const someData = "secret"
-
-return (
-    <div style={aosiegnaøsoginaøs}>
+  return function Hoc() {
+    return (
+      <div>
         <h1>I am an hoc {someData}</h1>
-        {props.children}
+        <Loc></Loc>
         <h1>I am an hoc {someData}</h1>
-
-    </div>
-
-
-
-)
-
-
-
+      </div>
+    );
+  };
 }

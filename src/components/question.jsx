@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+import { useEffect, useReducer } from "react";
 
 export function Question() {
   function questionReducer(question, action) {
@@ -25,7 +25,7 @@ export function Question() {
     ],
     correctAnswer: "Find or build shelter",
   });
- 
+
   const optionList = question.options.map((option) => <li>{option}</li>);
 
   // way to answer the question
@@ -35,7 +35,13 @@ export function Question() {
     dispatch({ type: "UPDATE_QUESTION", payload: "Why reducers" });
   }
 
-  // way to store the results
+  // some code to run when this component loads
+
+
+  useEffect(() => {
+    //fetch data
+   
+  }, []);
 
   return (
     <div>
